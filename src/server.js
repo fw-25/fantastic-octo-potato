@@ -9,7 +9,7 @@ console.log(`Node.js ${process.version}`)
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.json({ msg: "Rahti2 node 0.7", foo: FOO })
+    res.json({ msg: "Rahti2 node 0.8", foo: FOO })
 })
 
 
